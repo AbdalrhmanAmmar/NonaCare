@@ -1,5 +1,5 @@
 :root {
-  --maincolor: #f9f1ef;
+  --maincolor: #faaab4;
 }
 
 body {
@@ -9,3 +9,4 @@ body {
 .navbar {
   background: var(--maincolor) !important;
 }
+
