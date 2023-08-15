@@ -1,0 +1,11 @@
+:root {
+  --maincolor: #f9f1ef;
+}
+
+body {
+  direction: rtl;
+}
+
+.navbar {
+  background: var(--maincolor) !important;
+}
