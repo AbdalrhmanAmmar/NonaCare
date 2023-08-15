@@ -1,5 +1,6 @@
 :root {
-  --maincolor: #faaab4;
+  --maincolor: #f29ca4;
+  --textColot: white;
 }
 
 body {
@@ -8,5 +9,9 @@ body {
 
 .navbar {
   background: var(--maincolor) !important;
+  color: var(--textColot) !important;
 }
 
+ul li a {
+  color: var(--textColot) !important;
+}

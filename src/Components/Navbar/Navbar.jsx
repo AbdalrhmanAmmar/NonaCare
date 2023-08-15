@@ -18,7 +18,10 @@ function Navbar() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="collapsibleNavId">
+            <div
+              className="collapse navbar-collapse justify-content-end"
+              id="collapsibleNavId"
+            >
               <ul className="navbar-nav me-auto mt-2 mt-lg-0">
                 <li className="nav-item">
                   <a className="nav-link active" href="#" aria-current="page">
@@ -29,6 +32,19 @@ function Navbar() {
                 <li className="nav-item">
                   <a className="nav-link" href="#">
                     المنتجات
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    السلة
+                  </a>
+                </li>
+              </ul>
+
+              <ul className="navbar-nav me-auto mt-2 mt-lg-0">
+                <li className="nav-item">
+                  <a className="nav-link" href="#">
+                    تسجيل الدخول
                   </a>
                 </li>
                 <li className="nav-item">
